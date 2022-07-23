@@ -134,7 +134,7 @@ def makeDraftLetter(number):
     writeLetterButton.click()
     t.sleep(2)
     writeLetterTo = driver.find_element(By.XPATH, "//div[@title='Кому']")
-    writeLetterTo.send_keys("st.solovey@gmail.com")
+    writeLetterTo.send_keys("test-test@gmail.com")
     writeLetterTitle = driver.find_element(By.XPATH, "//input[@class='composeTextField ComposeSubject-TextField']")
     writeLetterTitle.send_keys("Title " + str(number))
     closeLetterButtonX = driver.find_element(By.XPATH, "//button[@aria-label='Закрыть']")
