@@ -4,7 +4,7 @@ Working with [Yandex Mail](https://mail.yandex.ru/ "Yandex Mail"): reading mails
 
 ### How to use?
 
-Written with python. Download, look into requirements.txt and use as you wish.
+Written with python. Download, look into requirements.txt and use it as you wish.
 
 ### Project objective
 
