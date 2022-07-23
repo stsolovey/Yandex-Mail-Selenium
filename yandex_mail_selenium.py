@@ -47,7 +47,6 @@ t.sleep(delay)
 
 mailLink = driver.find_element(By.XPATH, "//a[@href='https://mail.yandex.ru']")
 mailLink.click()
-t.sleep(3)
 
 t.sleep(delay)
 
